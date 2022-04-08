@@ -34,7 +34,7 @@ function verificar() {
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'fotojovem-f.jpg')
-            } else if(idade < 60) {
+            } else if(idade < 50) {
                 //adulta
                 img.setAttribute('src', 'fotoadulto-f.jpg')
             } else {
